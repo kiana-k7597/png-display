@@ -4,9 +4,25 @@ body, html {
     height: 100%;
     overflow: hidden;
 }
-img {
-    width: auto; 
-    max-width: 100%; 
-    height: auto; 
-    display: block; 
+
+.image-container {
+    position: relative;
+}
+
+.valentines-image {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    z-index: 1;
+}
+
+.gif-hearts {
+    z-index: 2; 
+    position: absolute;
+    top: 65%; 
+    left: 38%;
+    transform: translate(-50%, -50%); 
+    width: 20%;
+    height: auto;
 }
